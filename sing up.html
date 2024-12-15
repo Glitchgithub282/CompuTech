@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Login/Signup</title>
+    <link rel="icon" href="../img/logo.png" type="Image/x-icon">
+    <link rel="stylesheet" href="../css/sigup.css">
+</head>
+<body>
+    <!-- container div -->
+    <div class="container">
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+
+      
+        <div class="form-section">
+            <!-- login form -->
+            <div class="login-from">
+                <input type="email" class="email input-group" placeholder="Comp@gmail.com" id="">
+                <input type="password" class="password input-group" placeholder="Password" id="">
+                <button class="mybtn">Login</button>
+                <a href="../index.html">Back to website</a>
+            </div>
+
+            <!-- signup form -->
+            <div class="signup-from">
+                <input type="text" class="name input-group" placeholder="Username" id="un">
+                <input type="email" class="email input-group" placeholder="Comp@gmail.com" id="em">
+                <input type="password" class="password input-group" placeholder="Password" id="ps">
+                <input type="password" class="password input-group" placeholder="Confirm password" id="ps">
+                <button class="mybtn">Signup</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input">
+        <label class="form-check-label">I agree to CompuTech's term and services</label>
+    </div>
+
+    <script>
+        let signup = document.querySelector('.signup');
+        let login = document.querySelector('.login');
+        let slider = document.querySelector('.slider');
+        let formSection = document.querySelector('.form-section');
+
+        signup.addEventListener("click",()=>{
+            slider.classList.add("moveslider");
+            formSection.classList.add("form-section-move");
+        })
+
+        login.addEventListener("click",()=>{
+            slider.classList.remove("moveslider");
+            formSection.classList.remove("form-section-move");
+        })
+
+        // storage
+
+        function transfervalues(){
+            var username = document.getElementById('un').value;
+            console.log(localStorage.setItem("uName",username));
+            var email = document.getElementById('em').value;
+            console.log(localStorage.setItem("eName",email));
+            var password = document.getElementById('ps').value;
+            console.log(localStorage.setItem("pName",password));
+            return false;
+        }
+    </script>
+</body>
+</html>

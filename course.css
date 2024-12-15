@@ -1,0 +1,116 @@
+*{
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+        background-color: #0fa3b1;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+     
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #fff ;
+        font-size: 17x;
+    }
+     
+    .navbar-nav .nav-link:hover {
+        background-color: #f9f7f3;
+        border-radius: 4px;
+        color: #0fa3b1 ;
+    }
+
+    .header {
+        margin: 50px;
+        background-color: #f9f7f3; 
+        margin-top: 20px;
+        padding: 50px 20px;
+        position: relative;
+        text-align: center;
+    }
+
+    .course-title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #0fa3b1;
+    }
+
+    .course-card {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+
+    .course-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .course-img {
+        height: 230px;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .course-btn {
+        background-color: #0fa3b1;
+        color: #fff;
+        border: none;
+    }
+
+    .course-btn:hover {
+        background-color: #fff;
+        color: #0fa3b1;
+    }
+
+    .vd-text {
+        color: #0fa3b1;
+    }
+    
+    .btn-custom {
+        background-color: #0fa3b1;
+        color: #fff;
+    }
+
+    .btn-custom:hover {
+        background-color: #f8f9fa;
+        color: #0fa3b1;
+    }
+
+    .footer ul {
+        list-style: none;          
+        padding: 0;                
+        display: flex;             
+        justify-content: center;   
+    }
+    
+    .footer li {
+        margin: 0 15px;            
+    }
+        
+    .hp {
+        margin-top: 20px;
+        font-size: smaller;
+        color: #f9f7f3;
+
+    }
+    
+    .footer a {
+        color: #fff;              
+        text-decoration: none;     
+        font-size: larger;         
+    }
+    
+    .footer a:hover {
+        color: #0fa3b1;           
+    }
+}

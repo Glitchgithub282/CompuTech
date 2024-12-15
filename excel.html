@@ -1,0 +1,296 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Excel</title>
+         <!--Bootstrap CDN Links-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+         <!--Icon-->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+         <!--AOS link-->
+         <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+         <link rel="icon" href="../img/logo.png" type="Image/x-icon">
+         <link rel="stylesheet" href="../css/nav_footer.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">    
+                    <img src="../img/logo.png" alt="logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="course.html">Course</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="content.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sing up.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <section class="container my-5">
+        <h1 class="title text-center">Basic Excel Tasks</h1>
+        <div class="row">
+            <h5>Key words</h5>
+            <div class="col-md-10">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th>Term</th>
+                            <th>Definition</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>cell</td>
+                            <td>A box ona spreadsheet in which you enter a single piece of data.
+                                Cells are identified by the column and row, e.g. cell E12 = column E and row 12.</td>
+                        </tr>
+                        <tr>
+                            <td>column</td>
+                            <td>A range of vertical cells identified by a letter.</td>
+                        </tr>
+                        <tr>
+                            <td>formula </td>
+                            <td>A calculation using numbers, mathematical operations and cells in a spreadsheet.</td>
+                        </tr>
+                        <tr>
+                            <td>function</td>
+                            <td>A piece of code within a spreadsheet program that performs a calculation.</td>
+                        </tr>
+                        <tr>
+                            <td>range</td>
+                            <td>A number of cells across a column, row or both.</td>
+                        </tr>
+                        <tr>
+                            <td>row</td>
+                            <td>A range of horizontal cells identified by a number.</td>
+                        </tr>
+                        <tr>
+                            <td>worksheet</td>
+                            <td>A named set of rows and columns. There can be more than one worksheet in a workbook.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row my-5">
+            <h3>Starting the new spreadsheet</h3>
+            
+            <div class="col-md-6">
+                <hr>
+                <p>When you start a new spreadsheet, the title is Book 1 - Excel. Remember to click on the title and give your spreadsheet a suitable filename.</p>
+                <p>At the bottom of the spreadsheet, you will see a tab called Sheet 1. This is the name of the current worksheet in your spreadsheet. You can rename this by right clicking on Sheet 1 and choosing Rename.</p>
+                <p>A spreadsheet can have more than one worksheet. Click on the + at the bottom of the sheet to add a new worksheet to your spreadsheet.</p>
+            </div>
+            <div class="col-md-6 py-5 ps-4">
+                <img src="../img/img30.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <h3>Adding The Data</h3>
+            <hr>
+            <div class="col-md-6">
+                <p>Each cell in a spreadsheet can hold data in the form of numbers, letters, symbols or formulas.</p>
+                <img src="../img/image (5).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>When you click on a cell, a green outline will appear around it. This is called the active cell.
+                    The name of the cell will be shown near the top left corner of the sheet. The cell is named with the letter of the column followed by the number of the row it is in.</p>
+                <img src="../img/image (6).png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-6">
+                <p>Click once on an empty cell to add data.
+                    You will notice that different sorts of data are set to be aligned differently in the cells. Letters are aligned to the left of the cell. Numbers are aligned to the right of the cell.</p>
+                <img src="../img/image (7).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>Once you have added data in a cell, you can press the Enter key to move down to the next cell in the row. If you want to move across to the cell in the next column, you can press the Tab key instead.
+                    There are two main ways to move around in a Sheet to get to the cell you want to enter data into.</p>
+                <p>1. Use the mouse to click in any celL.</p>
+                <p>2. Use the arrow keys on the keyboard to move left, right, up or down.</p>
+                <p>To edit data already entered in a cell, double-click on the cell.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Resizing Rows and Columns</h3>
+                <hr>
+                <p>To make rows or columns larger, hover the cursor between the row numbers or column letters. As you move between two different letters or numbers, the cursor will change to show a line with a double headed arrow. Click and drag to make the row or column larger or smaller.</p>
+                <img src="../img/image (8).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h3>Genral Formatting</h3>
+                <hr>
+                <p>Use the format tools on the shortcut toolbar to change the appearance of cells, rows or columns. You can format and align text, fill cells with colour, add gridlines and wrap text.
+                    Wrapping text means breaking a long line of text into more than one line so that it fits inside the cell without overflowing.</p>
+                <img src="../img/image (9).png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row py-5">
+            <h3>Formatting Numbers</h3>
+            <div class="col-md-6">
+                <hr>
+                <p>Spreadsheets can contain different types of information. These different types of information may include: dates, numbers with decimal places, currency or times. You can format how you want numbers to appear in the cells. This will save you time when you are typing in your data.</p>
+                <p>Click and drag to select the cells the numbers are going to appear in</p>
+                <p>Go to the Number formatting section of the shortcut toolbar and click on the arrow at the end of the General box. A list of different number formats will appear and you can choose the one you want to use.</p>
+                <p>Some of the most common formats are included on the shortcut toolbar to make this even easier.</p>
+            </div>
+            <div class="col-md-6 py-3">
+                <img src="../img/image (10).png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Sorting Data</h3>
+                <hr>
+                <p>Spreadsheets can be used to sort data quickly and easily. This can make the data easier to read and understand.</p>
+                <img src="../img/image (11).png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row py-5">
+            <h3>Sorting Data into Alphabetical or Numerical Order</h3>
+            <hr>
+            <div class="col-md-6 py-3">
+                <p>Top Tip: Make sure that each column has a title cell at the top.</p>
+                <p>To sort a column of data into order, click in the title cell at the top of the column you want to sort. Select Data from the menu toolbar.</p>
+                <img src="../img/image (12).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 py-3">
+                <p>To sort the data from A to Z or from lowest to highest and to sort the data from Z to A or from highest to lowest, select:</p>
+                <p></p>
+                <img src="../img/image (13).png" alt="" class="img-fluid ps-5">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-10">
+                <p>Top Tip: If you are trying to sort items in a list with a set of data attached to them, remember to select both the list and the data before sorting them. This way, the items on the list and the data connected to them will stay together and not become mismatched.</p>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-md-10">
+                <h3>Using Function</h3>
+                <hr>
+                <p>Spreadsheets become powerful when functions are used to do calculations quickly.
+                    Functions are formulas that are built into spreadsheets ready for you to use.</p>
+                <p>Two of the most common functions are:</p>
+                <p>SUM - adding up a range of cells.</p>
+                <p>AVERAGE- finding the average of a range of cells.</p>
+            </div>
+        </div>
+        <div class="row py-3">
+            <h3>Finding the SUM of a Set of Numbers</h3>
+            <hr>
+            <div class="col-md-6">
+                <p>Click and drag to select the cells you want to add together. On the shortcut toolbar, click on the arrow at the end of the AutoSum icon. Choose sUM from the list of commonly used functions.</p>
+                <p>The total sum of all the numbers selected will now appear in the cell at the bottom of the column.</p>
+                <img src="../img/image (14).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>When you click in the cell that has a function added to it, the function will appear in the Formula Bar at the top of the Sheet.</p>
+                <img src="../img/image (15).png" alt="" class="img-fluid py-5">
+                <p class="py-5">Once the SUM function has been added, you can change any of the numbers in the cells above it and the cell containing the formula will automatically update to show the new total.</p>
+                
+            </div>
+        </div>
+        <div class="row py-4">
+            <h3>Finding the AVERAGE of a Set of Number</h3>
+            <hr>
+            <div class="col-md-6 ">
+                <p>Click and drag to select the cells you want to find the average of. On the shortcut toolbar, click on the arrow at the end of the AutoSum icon. Choose AVERAGE from the list of commonly used functions. The average of the numbers selected will be calculated and displayed in the cell at the bottom of the column.</p>
+                <img src="../img/image (16).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 py-5 ps-2">
+                <p class="py-2">When you click on the cell which the function was added to, you will see the function displayed in the Formula Bar at the top of the Sheet.</p>
+                <img src="../img/image (17).png" alt="" class="img-fluid py-5">
+                <p class="py-5">Once the AVERAGE function has been added, you can change any of the numbers in the cells above it and the cell containing the formula will automatically update.</p>
+            </div>
+        </div>
+        <div class="row py-3">
+            <h3>Creating a Chart</h3>
+            <hr>
+            <div class="col-md-6">
+                <p>Click and drag across the cells to choose the range of data you want to show in a chart.</p>
+                <p>Go to Insert on the menu toolbar, and choose the chart type. Click on the arrow at the end of each chart type to see the different styles available. Click on the one you want to use.
+                    You may also notice a small chart icon appearing at the bottom right corner of your cells.</p>
+                <img src="../img/image (18).png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>You may also notice a small chart icon appearing at the bottom right corner of your cells.
+                    This is the Quick Analysis Tool. Click on this icon and select Charts as another way to create a chart.</p>
+                <img src="../img/image (19).png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-6">
+                <h3>Editing a Chart</h3>
+                <hr>
+                <p>To edit the chart, click to select it. Handles will appear around the chart. You can move the chart by clicking and dragging, or use the handles to resize the chart.
+                    When the chart is selected, three new icons appear. The top icon can be used to edit the title of the chart and label the axes.</p>
+                <p>Right-click on a bar or segment to change the colour.</p>
+            </div>
+            <div class="col-md-6 py-5">
+                <img src="../img/image.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+			<a href="../pages/course.html" class="btn ">Back to Courses</a>
+		</div>
+    </section>
+    
+    <footer class="footer bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <div class="row mb-3">
+                <div class="col-md-6 text-center mb-3">
+                    <a href="index.html"><img src="../img/logo.png" alt="logo" width="50"></a>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="content.html">Content</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="sing up.html">Login/Signup</a></li>
+                        <li><a href="../reference.docx">Reference</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-github"></i></a>
+                <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="hp">
+                <p>About our website</p>
+                <p>We are dedicated to empowering individuals with the knowledge and skills they need to thrive in today’s digital world. Our mission 
+                    is to make learning accessible, practical, and enjoyable for everyone, regardless of their background or experience.</p>
+            </div>
+            <p class="mt-3 mb-0">&copy; copyright 2024. All rights reserved. Developed by CompuTech.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+*{
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+        background-color: #0fa3b1;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px;
+    }
+     
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #fff ;
+        font-size: 17x;
+    }
+     
+    .navbar-nav .nav-link:hover {
+        background-color: #f9f7f3;
+        border-radius: 4px;
+        color: #0fa3b1 ;
+    }
+    
+    .course {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 80px;
+    }
+
+    .text h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .learn-more-btn {
+        background-color: #0fa3b1;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+    
+    .learn-more-btn a {
+        text-decoration: none;  
+        color: #fff;          
+        display: block;          
+    }
+
+    .learn-more-btn:hover {
+        background-color: #f9f7f3;
+        color: #0fa3b1 !important;
+    }
+
+    .btn.mybtn a {
+        text-decoration: none;  
+        color: #fff;          
+        display: block;          
+    }
+    
+    .btn-dark {
+        background-color: #0fa3b1 !important;
+        border: none !important;
+        color: #fff !important;
+    }
+
+    .btn-dark:hover {
+        background-color: #f9f7f3 !important;
+        color: #0fa3b1 !important;
+    }
+
+    .text-center img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .FAQ {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    .accordion-header button {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .accordion-header button:hover {
+        color: #0fa3b1;
+    }
+
+    .accordion-item {
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .accordion-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .accordion-button {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #b5e2fa;
+        border: none;
+    }
+
+    .accordion-body {
+        background-color: #f9f7f3;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .footer ul {
+        list-style: none;          
+        padding: 0;                
+        display: flex;             
+        justify-content: center;   
+    }
+    
+    .footer img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer li {
+        margin: 0 15px;            
+    }
+        
+    .hp {
+        margin-top: 20px;
+        font-size: smaller;
+        color: #f9f7f3;
+
+    }
+
+    .footer a {
+        color: #fff;              
+        text-decoration: none;     
+        font-size: larger;         
+    }
+    
+    .footer a:hover {
+        color: #0fa3b1;           
+    }
+}

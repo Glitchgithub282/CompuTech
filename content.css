@@ -1,0 +1,133 @@
+*{
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+        background-color: #0fa3b1;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+     
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #fff ;
+        font-size: 17x;
+    }
+     
+    .navbar-nav .nav-link:hover {
+        background-color: #f9f7f3;
+        border-radius: 4px;
+        color: #0fa3b1 ;
+    }
+
+    .header {
+        margin: 50px;
+        background-color: #f9f7f3; 
+        margin-top: 20px;
+        padding: 50px 20px;
+        position: relative;
+        text-align: center;
+    }
+    .course-title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #0fa3b1;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        max-width: 950px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-img img {
+        width: 350px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    
+    .contact-form {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .contact-form h1 {
+        text-align: center;
+    }
+    
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    .btn-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0fa3b1;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-button:hover {
+        background-color: #f9f7f3;
+        color: #0fa3b1;
+    }
+    
+    .footer ul {
+        list-style: none;          
+        padding: 0;                
+        display: flex;             
+        justify-content: center;   
+    }
+    
+    .footer ul {
+        list-style: none;          
+        padding: 0;                
+        display: flex;             
+        justify-content: center;   
+    }
+    
+    .footer li {
+        margin: 0 15px;            
+    }
+        
+    .hp {
+        margin-top: 20px;
+        font-size: smaller;
+        color: #f9f7f3;
+
+    }
+    
+    .footer a {
+        color: #fff;              
+        text-decoration: none;     
+        font-size: larger;         
+    }
+    
+    .footer a:hover {
+        color: #0fa3b1;           
+    }
+}
